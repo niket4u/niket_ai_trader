@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Run NiketBot autoupdate daily
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+Unit=autoupdate.service
+
+[Install]
+WantedBy=timers.target

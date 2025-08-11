@@ -1,0 +1,6 @@
+ticker,name,strategy
+SPY,SPDR S&P 500,ma_crossover
+QQQ,Invesco QQQ,ma_crossover
+BITO,ProShares Bitcoin Strategy,ma_crossover
+SOXL,Direxion Daily Semiconductor Bull 3X Shares,ma_crossover
+UVXY,ProShares Ultra VIX Short-Term Futures,ma_crossover
