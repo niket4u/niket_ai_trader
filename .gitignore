@@ -1,38 +1,5 @@
-# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.log
-
-# Virtual environments
-.venv/
-env/
-venv/
-
-# Environment config
 .env
-.env.*
-*.env
-
-# Google Drive / API credentials
 *.json
-google_drive*.json
-service_account*.json
-
-# Logs
+.venv/
 logs/
-niketbot_logs/
-tmp/
-*.sqlite
-*.sqlite3
-
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Cache
-.cache/

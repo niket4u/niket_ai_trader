@@ -1,0 +1,11 @@
+
+[Unit]
+Description=NiketBot Drive Log Sync
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/niket_ai_trader
+Environment=PYTHONUNBUFFERED=1
+ExecStart=%h/niket_ai_trader/.venv/bin/python tools/drive_sync.py

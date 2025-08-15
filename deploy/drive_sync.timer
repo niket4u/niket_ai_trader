@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Weekly Google Drive sync for NiketBot logs
+
+[Timer]
+OnCalendar=Sun *-*-* 02:30:00
+Persistent=true
+Unit=drive_sync.service
+
+[Install]
+WantedBy=timers.target
