@@ -1,0 +1,10 @@
+[Unit]
+Description=NiketBot Phase 2.5 Upgrade (Git-based)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/niket_ai_trader
+ExecStart=/bin/bash %h/niket_ai_trader/deploy/upgrade_to_phase2_5.sh --with-drive
+# remove --with-drive if you don't use Drive sync
